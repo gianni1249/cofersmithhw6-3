@@ -1,0 +1,5 @@
+#!/bin/bash
+
+g++ myApp.cpp record.cpp phoneBook.cpp -o myApp
+g++ -g myApp.cpp record.cpp phoneBook.cpp -o myAppGDB
+echo "Done compiling myApp"
